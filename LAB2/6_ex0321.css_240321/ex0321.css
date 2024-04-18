@@ -1,0 +1,46 @@
+mar
+
+h1 + p { color:aqua;}
+h1 ~ p { font-weight: bold;}
+h1{
+    text-shadow: 2px 5px 0px #1b75dc;
+    text-decoration: underline;
+}
+#signup label{ 
+    float: left;
+    font-size: 15px;
+    width: 120px;
+}
+
+fieldset{
+    border: 1px solid #1bafdc;
+    width: 300px;
+}
+
+legend {
+    font-size: 12px;
+    font-weight: bold;
+}
+#signup input{
+    border: 1px solid #1bafdc;
+}
+li{
+    list-style: none; 
+}
+#signup input[type="submit"]{
+    background-color: blueviolet;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+#signup input[type="submit"]:hover{
+    background-color: #1bdc9c;
+}
+
+fieldset:last-of-type{
+    border: none;
+}
+#name, #email, #tel{
+    width: 200px;
+}

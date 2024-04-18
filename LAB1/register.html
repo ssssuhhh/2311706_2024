@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>동아리 가입 양식</title>
+</head>
+<body>
+    <h2>동아리 가입 양식</h2><br/>
+    <label for="name">이름</label>
+    <input type="text" id="name" name="name"><br/>
+    <label for="major">학부/학과</label>
+    <input list="major">
+    <datalist id="major">
+        <option value="소프트웨어학부">
+        <option value="인공지능공학부">
+        <option value="소비자경제학과">
+        <option value="심리학과">
+    </datalist><br/>
+
+    <label for="grade">학년</label>
+    <input type="radio" id="1학년" name="grade" value="1학년">
+    <label for="1학년">1학년</label>
+    <input type="radio" id="2학년" name="grade" value="2학년">
+    <label for="2학년">2학년</label>
+    <input type="radio" id="3학년" name="grade" value="3학년">
+    <label for="3학년">3학년</label>
+    <input type="radio" id="4학년" name="grade" value="4학년">
+    <label for="4학년">4학년</label><br/>
+
+    <label for="number">학번</label>
+    <input type="text" id="number" name="number"><br/>
+    <label for="email">이메일</label>
+    <input type="email" id="email" name="email" placeholder="id@host"><br/>
+    <label for="phonenum">전화번호</label>
+    <input type="text" id="phonenum" name="phonenum" placeholder="010-1234-5678" ><br/>
+    <label for="motive">가입 동기</label>
+    <textarea name="motive" rows="5" cols="20">
+    </textarea><br/>
+    <input type="submit" value="가입하기">
+    <input type="reset" value="취소하기">
+
+</body>
+</html>
